@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5920F95951B434854DB3854E404AC5AA69190072",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5920F95951B434854DB3854E404AC5AA69190072" : 0,
+    "823F27E9AC024C95D69EA28A18790634F77635D9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9C744CB6-90C9-420E-9313-82E710BD41C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5920F95951B434854DB3854E404AC5AA69190072" : "ios-challenge-notes\/",
+    "823F27E9AC024C95D69EA28A18790634F77635D9" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Notes",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Notes\/Notes.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kpfister\/ios-challenge-notes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5920F95951B434854DB3854E404AC5AA69190072"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kpfister\/Unit1Challenge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "823F27E9AC024C95D69EA28A18790634F77635D9"
+    }
+  ]
+}

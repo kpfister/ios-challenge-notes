@@ -11,6 +11,10 @@
 		1AFCF6C31CDC050E006D2F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C11CDC050E006D2F3D /* Main.storyboard */; };
 		1AFCF6C51CDC050E006D2F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */; };
 		1AFCF6C81CDC050E006D2F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C61CDC050E006D2F3D /* LaunchScreen.storyboard */; };
+		756EE50C1CE628370008517A /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EE50B1CE628370008517A /* NoteTableViewController.swift */; };
+		756EE50E1CE6285F0008517A /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EE50D1CE6285F0008517A /* NoteDetailViewController.swift */; };
+		756EE5101CE628AE0008517A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EE50F1CE628AE0008517A /* Note.swift */; };
+		756EE5141CE62EDE0008517A /* noteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EE5131CE62EDE0008517A /* noteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFCF6C71CDC050E006D2F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFCF6C91CDC050E006D2F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		756EE50B1CE628370008517A /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
+		756EE50D1CE6285F0008517A /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
+		756EE50F1CE628AE0008517A /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		756EE5131CE62EDE0008517A /* noteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +62,31 @@
 			children = (
 				1AFCF6BD1CDC050E006D2F3D /* AppDelegate.swift */,
 				1AFCF6C11CDC050E006D2F3D /* Main.storyboard */,
+				756EE5121CE62D960008517A /* Model */,
+				756EE5111CE62D8C0008517A /* Controller */,
 				1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */,
 				1AFCF6C61CDC050E006D2F3D /* LaunchScreen.storyboard */,
 				1AFCF6C91CDC050E006D2F3D /* Info.plist */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		756EE5111CE62D8C0008517A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				756EE50D1CE6285F0008517A /* NoteDetailViewController.swift */,
+				756EE50B1CE628370008517A /* NoteTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		756EE5121CE62D960008517A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				756EE50F1CE628AE0008517A /* Note.swift */,
+				756EE5131CE62EDE0008517A /* noteController.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFCF6BE1CDC050E006D2F3D /* AppDelegate.swift in Sources */,
+				756EE50C1CE628370008517A /* NoteTableViewController.swift in Sources */,
+				756EE50E1CE6285F0008517A /* NoteDetailViewController.swift in Sources */,
+				756EE5101CE628AE0008517A /* Note.swift in Sources */,
+				756EE5141CE62EDE0008517A /* noteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +314,7 @@
 				1AFCF6CE1CDC050E006D2F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
